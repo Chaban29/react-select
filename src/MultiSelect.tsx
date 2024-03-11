@@ -40,7 +40,7 @@ const MultiSelect: FC = (): JSX.Element => {
 
   return (
     <div className='select'>
-      <h1>Chose Country</h1>
+      <h1 style={{ color: '#323232' }}>Chose Country</h1>
       <Select
         classNamePrefix='custom-select'
         value={getValue()}
